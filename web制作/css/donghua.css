@@ -1,0 +1,22 @@
+.nihao
+{
+  animation: donghua 10s;
+  animation-direction: alternate-reverse;
+  width: 280px;height: 100px;
+  background-color: #ffebee;
+  border: 5px #000 solid;
+}
+.nihao p
+{
+  font-size: 25px;
+}
+@keyframes donghua
+{
+  0%  {width: 280px;
+      background-color: #fff;           }
+  50% {width: 600px;
+      background-color: #000;
+    position: absolute;  left: 500px;           }
+  100% {width: 100px;
+       background-color: #ffebee;             }
+}
